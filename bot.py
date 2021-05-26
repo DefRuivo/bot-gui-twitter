@@ -3,10 +3,6 @@ import schedule
 import time
 from mensagens import Mensagens
 
-KEY = "xH64CoAf3R787YzV7M0ymePOh"
-S_KEY = "JpiZGn3KHp0B0x8Sdl66FxBf976f1AUhL5zL8pwJPK2QtOifIB"
-TOKEN = "1395165522484998146-WTM2HoBrqGTZJimpY7LENn0hI329Ok"
-TOKEN_S = "KFVReTFlGs9BV1TTej9eyFSonyFduRCyJAkiDiY9IvleL"
 
 class Bot(Mensagens):   
     def __init__(self, API_KEY, API_SECRET_KEY, ACCESS_TOKEN, ACCESS_TOKEN_SECRET):
